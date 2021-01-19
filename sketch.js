@@ -86,10 +86,12 @@ function keyPressed()
 	if(keyCode===RIGHT_ARROW){
 		helicopterSprite.x=helicopterSprite.x+20;
 		packageSprite.x=packageSprite.x+20;
+		packageBody.position.x= packageBody.position.x+20;
 	}
 	if(keyCode===LEFT_ARROW){
 		helicopterSprite.x=helicopterSprite.x-20;
 		packageSprite.x=packageSprite.x-20;
+		packageBody.position.x= packageBody.position.x20;
 	}
 	if(keyCode===DOWN_ARROW){
 		Body.setStatic(packageBody, false);
